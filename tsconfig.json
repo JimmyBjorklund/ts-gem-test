@@ -1,0 +1,30 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+      "allowJs": true,
+      "baseUrl": ".",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "forceConsistentCasingInFileNames": true,
+      "lib": ["es2022"],
+      "types": ["reflect-metadata", "node"],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      //"noEmit": true,
+      "outDir": "build",
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noFallthroughCasesInSwitch": false,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "pretty": true,
+      "strictNullChecks": true,
+      "sourceMap": true,
+      //"skipLibCheck": true,
+      "target": "es5"
+    },
+    "exclude": ["node_modules", "build", "scripts"],
+    "include": ["./app/**.ts"]
+  }
+  
